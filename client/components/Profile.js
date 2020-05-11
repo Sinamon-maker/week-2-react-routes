@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div>
       <div id="title">Profile</div>
-      <div id="username"> {username} </div>
+      <div id="{username}"> {username} </div>
       <Link to="/dashboard/main"> Go To Main </Link>
       <Link to="/dashboard"> Go To Root </Link>
     </div>
